@@ -1,9 +1,10 @@
 import ReactDOM from "react-dom"
+import Body from "./components/Body";
 
 const App = () => {
     return (
-        <div>
-            <h1>Rendered via parcel</h1>
+        <div className="text-white">
+            <Body />
         </div>
     )
 }

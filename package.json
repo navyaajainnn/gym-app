@@ -4,6 +4,7 @@
   "description": "a gym app for workouts and diet",
   "main": "index.js",
   "scripts": {
+    "start": "npx parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "anees",
@@ -14,6 +15,8 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "process": "^0.11.10"
+    "postcss": "^8.4.47",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.13"
   }
 }
