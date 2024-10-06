@@ -14,7 +14,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="h-full flex items-center justify-center">
-                <img src={lionLogo} className="h-96" alt="Lion Logo" />
+                <img src={lionLogo} className="h-[500px]" alt="Lion Logo" />
             </div>
         </div>
     );
