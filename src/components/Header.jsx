@@ -1,4 +1,4 @@
-import lionLogo from "../assets/images/lion-logo.png"
+import batmanLogo from "../assets/images/batman-logo.png"
 
 const Header = () => {
     return (
@@ -14,7 +14,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="h-full flex items-center justify-center">
-                <img src={lionLogo} className="h-[500px]" alt="Lion Logo" />
+                <img src={batmanLogo} className="h-64" alt="Lion Logo" />
             </div>
         </div>
     );

@@ -1,37 +1,85 @@
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import batmanChest from "../assets/images/batman-chest.jpg"
+import batmanTriceps from "../assets/images/batman-triceps.jpg"
+import batmanBack from "../assets/images/batman-back.jpg"
+
 
 const Workouts = () => {
     return (
         <div className="flex flex-col justify-center items-center">
-            <h1>Workouts</h1>
-            <ul className="flex space-x-16">
-                <li>Chest</li>
-                <Row xs={1} md={2} className="g-4">
-                    {Array.from({ length: 4 }).map((_, idx) => (
-                        <Col key={idx}>
-                        <Card>
-                            <Card.Img variant="top" src="holder.js/100px160" />
-                            <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a longer card with supporting text below as a natural
-                                lead-in to additional content. This content is a little bit
-                                longer.
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        </Col>
-                    ))}
-                </Row>
-                <li>Triceps</li>
-                <li>Back</li>
-                <li>Biceps</li>
-                <li>Shoulder</li>
-                <li>Legs</li>
-                <li>Apps</li>
-            </ul>
+            <h1 className='text-4xl font-semibold'>Workouts</h1>
+            <div className='flex flex-wrap w-11/12 m-2 space-x-28 items-center justify-center'>
+            <div className='bg-white rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanChest} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Chest Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className='bg-white m-3 rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanTriceps} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Triceps Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className='bg-white m-3 rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanBack} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Back Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className='bg-white m-3 rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanChest} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Chest Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className='bg-white m-3 rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanChest} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Chest Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className='bg-white m-3 rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanChest} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Chest Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            <div className='bg-white m-3 rounded-lg'>
+            <Card className="relative m-2">
+                <Card.Img className="h-72 w-auto " variant="top" src={batmanChest} />
+                <Card.Body className="p-0">
+                    <Card.Text className="absolute bottom-0 p-2 left-0 w-full text-2xl bg-black/50 bg-opacity-75 text-white text-left">
+                        Chest Workouts
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            </div>
+            </div>
         </div>
     )
 }
