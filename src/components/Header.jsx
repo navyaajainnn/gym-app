@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import batmanLogo from "../assets/images/batman-logo.png"
 
 const Header = () => {
@@ -6,11 +7,11 @@ const Header = () => {
             <div className="absolute top-0 left-0 right-0 p-3 flex justify-between">
                 <p>AMyeS FiT</p>
                 <ul className="flex space-x-20">
-                    <li>Home</li>
-                    <li>Workouts</li>
-                    <li>Diet</li>
-                    <li>Contact Us</li>
-                    <li>About Us</li>
+                    <Link to="/">Home</Link>
+                    <Link to="/">Workouts</Link>
+                    <Link to="/">Diet</Link>
+                    <Link to="/">Contact Us</Link>
+                    <Link to="/about">About Us</Link>
                 </ul>
             </div>
             <div className="h-full flex items-center justify-center">
