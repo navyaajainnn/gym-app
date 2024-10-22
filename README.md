@@ -11,14 +11,11 @@
 - "🎨 **Animations**: Smooth, interactive elements enhance the user experience."
 
 ### 🏋️‍♂️ ***Workout Features***
-- **Strength Training**: Tailored for muscle building.
-- **Cardio**: Focused on endurance and fat loss.
-- **Flexibility**: Improves mobility with stretches and yoga.
+Muscle focused workouts are provided to train the respective muscle
 
 ### 🔧 **Technologies Used**
-- **HTML**: The structure of the app.
+- **React**: For the UI design and functionality.
 - **CSS (Tailwind CSS)**: Custom styling and responsive design.
-- **JavaScript**: Handles the app’s interactive features.
 
 ### ⚙️ **How It Works**
 1. **Plan Customization**: Users can select their preferred workout or diet goals.
